@@ -1,8 +1,8 @@
 <?php
-namespace SPORTSANALYTICS;
-require_once('Sport.php');
+require_once('\SPORTSANALYTICS\Sport.php');
+require_once('\DB\Db.php');
 
-$app = new Sport(1,'Test');
+$app = new \SPORTSANALYTICS\Sport(1,'Test');
 $app->toString();
 
 ?>
